@@ -6,3 +6,11 @@
       font-size: x-large;
       background-color: lightgreen;
     }
+
+    h1 {
+      font-weight: 600;
+    }
+
+    body {
+      background:rgb(221, 221, 228);
+    }
