@@ -1,77 +1,80 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>My first Vue page</title>
-<link rel="stylesheet" href="css/style.css">
+  <title>My first Vue page</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
- 
-    <h1>Home</h1>
-    <p>Personal website</p>
-    <h2>About Me</h2>
-    <p>
-      Welcome to my personal profile page. I am Don Victor Idos and here, you will find information about
-      my education, achievements, IT experience, hobbies, interests, and goals
-      in life.
-    </p>
 
-    <h2>Education / Achievements</h2>
-    <ul>
-      <li>Graduated Highschool</li>
-    </ul>
+  <h1>Home</h1>
+  <p>Personal website</p>
+  <h2>About Me</h2>
+  <p>
+    Welcome to my personal profile page. I am Don Victor Idos and here, you will find information about
+    my education, achievements, IT experience, hobbies, interests, and goals
+    in life.
+  </p>
 
-    <h2>Course</h2>
-    <p>
-      Currently enrolled in Asia Pacific College as a CS Student with a
-      Specialization in Software and Systems.
-    </p>
+  <h2>Education / Achievements</h2>
+  <ul>
+    <li>Graduated Highschool</li>
+  </ul>
 
-    <h2>IT Experience</h2>
-    <p>
-      I am a computer science student and most of my experience comes from
-      school and personal projects
-    </p>
+  <h2>Course</h2>
+  <p>
+    Currently enrolled in Asia Pacific College as a CS Student with a
+    Specialization in Software and Systems.
+  </p>
 
-    <h2>Hobbies & Interests</h2>
-    <table>
-      <tr>
-        <th>Hobby/Interest</th>
-      </tr>
-      <tr>
-        <td>Sports</td>
-      </tr>
-      <tr>
-        <td>Programming</td>
-      </tr>
-      <tr>
-        <td>Art</td>
-      </tr>
-    </table>
+  <h2>IT Experience</h2>
+  <p>
+    I am a computer science student and most of my experience comes from
+    school and personal projects
+  </p>
 
-    <h2>Goals In Life / Dream</h2>
-    <p>I want to be happy</p>
+  <h2>Hobbies & Interests</h2>
+  <table>
+    <tr>
+      <th>Hobby/Interest</th>
+    </tr>
+    <tr>
+      <td>Sports</td>
+    </tr>
+    <tr>
+      <td>Programming</td>
+    </tr>
+    <tr>
+      <td>Art</td>
+    </tr>
+  </table>
+
+  <h2>Goals In Life / Dream</h2>
+  <p>I want to be happy</p>
 
 
- 
-<div id="app">
-  {{ message }} <br>
-  {{'Random number: ' + Math.ceil(Math.random()*6) }} 
+
+  <div id="app">
+    {{ message }} <br>
+    {{'Random number: ' + Math.ceil(Math.random()*6) }}
     <div v-bind:class="vueClass">This element is bound to the "pinkBG" class.
-</div>
+    </div>
 
-<div id="app2">
-<div>
-<figure v-for="x in manyFoods">
-<img v-bind:src="x.url">
-<figcaption>{{ x.name }}</figcaption>
-</figure>
-</div>
-</div>
- 
-</div>
- 
-<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
- <script src="js/vue.js"></script>
- 
+
+  </div>
+
+    <div id="app2">
+      <div>
+        <figure v-for="x in manyFoods">
+          <img v-bind:src="x.url">
+          <figcaption>{{ x.name }}</figcaption>
+        </figure>
+      </div>
+    </div>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="js/vue.js"></script>
+
 </body>
+
 </html>
