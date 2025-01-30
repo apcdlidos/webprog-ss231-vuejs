@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h2>{{ name }}</h2>
-    <p>{{ message }}</p>
+    <h2>{{ fruit }}</h2>
+    <p>{{ description }}</p>
   </div>
 </template>
 
@@ -9,8 +9,8 @@
 export default {
   data() {
     return {
-      name: 'Apples',
-      message: 'I like apples'
+      fruit: 'Orange',
+      description: 'sweet and sour'
     }
   }
 };
