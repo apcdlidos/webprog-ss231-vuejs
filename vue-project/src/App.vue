@@ -22,8 +22,12 @@
   </ul>
   
 <h1>Hello WEBPROG SS231</h1>
+<CommentForm></CommentForm>
+<Comments>
+</Comments>
 <FoodItem></FoodItem>
 <FoodItem2></FoodItem2>
+
 <PersonalProfile></PersonalProfile>
 </template>
 
