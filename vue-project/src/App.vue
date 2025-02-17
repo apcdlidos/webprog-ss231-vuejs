@@ -1,6 +1,7 @@
 
 <template>
 <h1>Hello WEBPROG SS231</h1>
+<RestApi></RestApi>
 <FoodItem></FoodItem>
 <FoodItem2></FoodItem2>
 <PersonalProfile></PersonalProfile>
